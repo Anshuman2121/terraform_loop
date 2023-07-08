@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "rg" {
-  name = "rg-vnetpeering-demo"
+  name = "appservice-demo"
 }
 
 variable "create_resource" {

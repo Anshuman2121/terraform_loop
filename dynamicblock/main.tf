@@ -4,11 +4,11 @@ resource "azurerm_resource_group" "example" {
 }
 
 variable "sg" {
-    type = list(object({
-        name = string
-        priority = string
-        port = string
-    }))
+    # type = list(object({
+    #     name = string
+    #     priority = string
+    #     port = string
+    # }))
   
 }
 
